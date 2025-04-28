@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    /* padding: 0; */
+    border: border-box;
+}
+
+
+
+
+/* nav starts.................................................... */
+
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0px;
+}
+.nav-logo{
+    height: 48px;
+    width: 114px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 37px;
+    width: 100%;
+    align-content: center;
+}
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/*box2*/
+.nav-address{
+    height: 48px;
+    width:70px;
+    align-content: center;
+}
+.add-first{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.75rem;
+}
+.add-second{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    /* align-items: center; */
+}
+
+/*box3*/
+.nav-search{
+    /* background-color: pink; */
+    height: 40px;
+    width: 55%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-search:hover{
+    border: 2px solid #FF9900;
+    box-shadow: 0px 0px 8px #FF9900;
+    border-radius: 6px;
+}
+.search-select{
+    border-color: transparent;
+    border-right-color: #cdcdcd;
+    padding-left: 5px;
+    text-align: left;
+    height: 40px;
+    background-color: #dbdbdb;
+    width: 58px;
+    border-radius: 4px 0px 0px 4px;
+    color: #5a5a5a;
+}
+.search-select:hover{
+    background-color: #cdcdcd;
+    cursor: pointer;
+}
+.search-input{
+    height: 38px;
+    width: 100%;
+    font-size: 0.95rem;
+    color: #5a5a5a;
+    font-weight: normal;
+    border-radius: 0px;
+    border: none
+}
+
+.search-icon{
+    background-color: #febd68;
+    height: 40px;
+    width: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-size: 1.3rem;
+    border-radius: 0px 4px 4px 0px;
+}
+.search-icon:hover{
+    background-color: #F3A847;
+    cursor: pointer;
+}
+
+/*box4*/
+.nav-lan{
+    font-size: 0.95rem;
+    font-weight: bold;
+    height: 48px;
+    width: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lan-flag{
+    height: 15px;
+    width: 15px;
+    color: skyblue;
+}
+.lan-icon{
+    color: #cccccc;
+    font-size: 11px;
+}
+/*box5*/
+span{
+    font-size: 0.78rem;
+}
+
+.nav-second
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.nav-signin{
+    padding: 5px 5px 5px 5px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    height: 38px;
+    width: 120px;
+    text-align: left;
+}
+
+/*box6*/
+.nav-return{
+    padding: 5px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    height: 38px;
+    width: 62px;
+    text-align: left;
+}
+
+/*box7*/
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 75px;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* .........................................................nav ends */
+
+
+
+/*panel starts.............................................................*/
+
+
+/* panel */
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.panel{
+    padding-top: 60px;
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    height: 38px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 58px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    justify-content: center;
+    /* background-color: green; */
+}
+.panel-all i{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+.panel-options{
+    height: 40px;
+    width: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* background-color: pink; */
+}
+.panel-options div{
+    height: 38px;
+    font-size: 0.85rem;
+    width: auto;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.panel-deals
+{
+    height: 30px;
+    width: auto;
+    padding: 0px 8px 0px 8px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    /* background-color: yellow; */
+}
+
+/*.............................................................panel ends*/
+
+/* hero section starts....................................................*/
+
+.hero-section{
+    background-image: url("hero_image1.jpg");
+    background-color: pink;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.845rem;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.hero-msg-anchor{
+    text-decoration: none;
+    color: #2162a1
+}
+.hero-msg-anchor:hover{
+
+    text-decoration: underline;
+    color: #1d3655;
+}
+
+/*shop section*/
+
+.shop-section{
+    /* background-color: blue; */
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    /* align-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #F1EEEC, #E3E6E6);
+}
+.box{
+    background: #FFFFFF;
+    /* border: 0.5px solid black; */
+    height: 385px;
+    width: 23.2%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 0px 15px 0px;
+}
+
+/* .............................................................................................. 4 section tab */
+.four-box-header{
+    height: 54.5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+.four-box-hero{
+    /* background-color: red; */
+    height: 276.41px;
+    width: 290.6px;
+    margin-bottom: 23px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+.four-box-hero-part{
+    height: 138.3px;
+    width: 138.34px;
+}
+.four-box-hero-part-img{
+    /* background-color: blue; */
+    height: 102.3px;
+    width: 100%;
+}
+.four-box-hero-part-descri{
+    padding-top: 2px;
+    height: 36px;
+    width: 100%;
+    text-align: left;
+    font-size: 0.45rem;
+}
+.partimg{
+    background-size: cover;
+}
+
+.four-box-footer{
+    text-align: left;
+    font-size: 0.85rem;
+    height: 16.89px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+/* ................................................................................................. 4 section tab */
+.one-box-header{
+    height: 54.5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+.one-box-hero{
+    /* background-color: red; */
+    height: 275.7px;
+    width: 290.6px;
+    margin-bottom: 23px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one-box-hero-part-img{
+    /* background-color: blue; */
+    height: 275.7px;
+    width: 290.6px;
+}
+.partimg{
+    background-size: cover;
+}
+.one-box-footer{
+    text-align: left;
+    font-size: 0.85rem;
+    height: 16.89px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+/* .......................................................................................one image section */
+
+.box-footer-anchor{
+    text-decoration: none;
+    color: #2162a1;
+    font-size: 0.75rem;
+}
+.box-footer-anchor:hover{
+    text-decoration: underline;
+    color: #1d3655;
+    font-size: 0.75rem;
+}
+/*......................................................................................................................hero section ends here*/
+
+/*footer starts here...............................................................................................................................*/
+.foot-panel1{
+    background-color: #37475A;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel1:hover{
+    background-color: #485769;
+}
+.btt-anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.btt-anchor:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 0.9rem;
+}
+.foot-panel2{
+    background-color: #232F3E;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    border-bottom: 0.5px solid #485769;
+}
+
+.foot-panel2 ul{
+margin-top: 50px;
+}
+
+.foot-panel2 ul a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+}
+
+.foot-panel3{
+    background-color: #232F3E;
+    height:auto;
+    padding: 10px 212.5px;
+}
+.foot-panel3links{
+    padding-top: 20px;
+    background-color: #232F3E;
+    color: #dddddd;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 27px;
+    width: 76px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    color: #FFFFFF;
+    background-color: #131A22;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* padding: 10px 0px 30px 0px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.foot-panel4 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pages{
+padding-top: 20px;
+}
+.copyright{
+    
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* media diye ekta certain length er por squeez hoa bondho hoye jaoa take baniye che. */
+/*ekhun korchi na pore icha hole ba somoy thakle korbo. */
+/* same for nav bar. */
+/* aro details add korte hobe */
