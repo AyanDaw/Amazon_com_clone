@@ -12,6 +12,7 @@
 
 
 .navbar{
+    z-index: 2;
     height: 60px;
     width: 100%;
     background-color: #131921;
@@ -317,17 +318,79 @@ span{
     margin-right: 10px;
     padding: 20px 0px 15px 0px;
 }
-
-/* .............................................................................................. 4 section tab */
-.four-box-header{
-    height: 54.5px;
+.box-header{
+    height: 27.3px;
     font-size: 0.85rem;
     font-weight: bold;
     padding: 0px 20px 0px 20px;
     margin-bottom: 10px;
 }
-.four-box-hero{
+.box-hero{ /* main frame er class */
     /* background-color: red; */
+    height: 303.7px;
+    width: 290.6px;
+    margin-bottom: 23px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    align-items: safe;
+    justify-content: space-between;
+}
+.box-hero-part{
+    /* background-color: green; */
+    height: 151.84px;
+    width: 138.34px;
+}
+.box-hero-part-img{
+    /* background-color: blue; */
+    height: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.partimg{
+    height: 115px;
+    /*width-height define nei bolei boundry chere palate parche*/
+    background-size: cover;
+}
+.box-hero-part-descri{
+    /* background-color: pink; */
+    padding-top: 2.5px;
+    height: 36px;
+    width: 100%;
+    text-align: left;
+    font-size: 0.45rem;
+}
+.box-footer{
+    text-align: left;
+    font-size: 0.85rem;
+    height: 16.89px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 5px;
+}
+.box-footer a{
+    text-decoration: none;
+    color: #2162a1;
+    font-size: 0.75rem;
+}
+.box-footer a:hover{
+    color: #1d3655;
+    font-size: 0.75rem;
+}
+/* .............................................................................................. 4 section tab */
+/* .four-box-header{
+    height: 54.5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+} */
+/* .four-box-hero{
     height: 276.41px;
     width: 290.6px;
     margin-bottom: 23px;
@@ -337,79 +400,33 @@ span{
     align-items: center;
     row-gap: 10px;
     justify-content: space-between;
-}
-.four-box-hero-part{
+} */
+/* .four-box-hero-part{
     height: 138.3px;
     width: 138.34px;
-}
-.four-box-hero-part-img{
+} */
+/* ................................................................................................. 4 section tab */
+
+.one-box-hero-part-img{
+    height: 303.7px;
+    width: 290.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
     /* background-color: blue; */
-    height: 102.3px;
-    width: 100%;
+    
 }
-.four-box-hero-part-descri{
-    padding-top: 2px;
-    height: 36px;
-    width: 100%;
-    text-align: left;
-    font-size: 0.45rem;
-}
-.partimg{
+
+.o-partimg{
+    /*width-height define nei bolei boundry chere palate parche*/
     background-size: cover;
 }
 
-.four-box-footer{
-    text-align: left;
-    font-size: 0.85rem;
-    height: 16.89px;
-    padding: 0px 20px 0px 20px;
-    margin-bottom: 20px;
-}
-/* ................................................................................................. 4 section tab */
-.one-box-header{
-    height: 54.5px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    padding: 0px 20px 0px 20px;
-    margin-bottom: 10px;
-}
-.one-box-hero{
-    /* background-color: red; */
-    height: 275.7px;
-    width: 290.6px;
-    margin-bottom: 23px;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.one-box-hero-part-img{
-    /* background-color: blue; */
-    height: 275.7px;
-    width: 290.6px;
-}
-.partimg{
-    background-size: cover;
-}
-.one-box-footer{
-    text-align: left;
-    font-size: 0.85rem;
-    height: 16.89px;
-    padding: 0px 20px 0px 20px;
-    margin-bottom: 20px;
-}
 /* .......................................................................................one image section */
 
-.box-footer-anchor{
-    text-decoration: none;
-    color: #2162a1;
-    font-size: 0.75rem;
-}
-.box-footer-anchor:hover{
-    text-decoration: underline;
-    color: #1d3655;
-    font-size: 0.75rem;
-}
 /*......................................................................................................................hero section ends here*/
 
 /*footer starts here...............................................................................................................................*/
@@ -517,3 +534,4 @@ padding-top: 20px;
 /*ekhun korchi na pore icha hole ba somoy thakle korbo. */
 /* same for nav bar. */
 /* aro details add korte hobe */
+/*4our section box change korte hobe karon ogulo one box er e size er. khali first ghor ta special case. ota sob kotai text responsive korle bhalo hoto. */
